@@ -1,7 +1,7 @@
 # partnerTracker
 Instruction:
-cd listingScraper/
-python airbnbScraper.py 
+- cd listingScraper/
+- python airbnbScraper.py 
 
 Output:
 1. airbnb_listing.csv: Airbnb listing for partners
