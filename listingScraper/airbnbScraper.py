@@ -41,7 +41,8 @@ for listing_id in master_list:
                             'city':json_response['city'],
                             'cleaning_fee_native':json_response['cleaning_fee_native'],
                             'description':json_response['description'],
-                            'listing_id':json_response['id'],
+                            'medium_url':json_response['medium_url'],
+			    'listing_id':json_response['id'],
                             'lat':json_response['lat'],
                             'lng':json_response['lng'],
                             'min_nights':json_response['min_nights'],
@@ -52,7 +53,8 @@ for listing_id in master_list:
                             'space':json_response['space'],
                             'summary':json_response['summary'],
                             'monthly_price_factor':json_response['monthly_price_factor'],
-                            'min_nights':json_response['min_nights']
+                            'min_nights':json_response['min_nights'],
+			    'picture_urls':json_response['picture_urls']
                            }
         list_listing_info += [listing_info_map]
     except Exception as e:
